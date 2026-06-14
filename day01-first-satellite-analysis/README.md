@@ -1,6 +1,5 @@
-# 🌍 GeoAI Journey: Day 1 — Satellite Analysis & NumPy Vectorization
-
-Welcome to Day1 of GeoAI intensive. Today's focus was shifting from "images as photos" to **"images as geospatial data,"** specifically calculating the **Normalized Difference Vegetation Index (NDVI)** using highly optimized Python workflows.
+# 🛰️Agri-Sentry Phase 1: Spectral Analysis & Vectorization
+Phase 1 focuses on shifting from "images as photos" to **"images as geospatial data,"** specifically calculating the **Normalized Difference Vegetation Index (NDVI)** using highly optimized Python workflows.
 
 ## 🚀 Quick Start
 To replicate this analysis locally:
