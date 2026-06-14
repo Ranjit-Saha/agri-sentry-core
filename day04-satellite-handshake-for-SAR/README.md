@@ -1,4 +1,4 @@
-## 🛰️Agri-Sentry Phase 4: Google Earth Engine SAR Integration
+## 🛰️Agri-Sentry-Core Phase 4: Google Earth Engine SAR Integration
 
 > Connecting **PostGIS** Farm Boundaries to the **Google Earth Engine (GEE)** Sky
 
