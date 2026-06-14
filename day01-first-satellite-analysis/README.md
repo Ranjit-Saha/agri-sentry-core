@@ -1,4 +1,4 @@
-# 🛰️Agri-Sentry Phase 1: Spectral Analysis & Vectorization
+# 🛰️Agri-Sentry-Core Phase 1: Spectral Analysis & Vectorization
 Phase 1 focuses on shifting from "images as photos" to **"images as geospatial data,"** specifically calculating the **Normalized Difference Vegetation Index (NDVI)** using highly optimized Python workflows.
 
 ## 🚀 Quick Start
