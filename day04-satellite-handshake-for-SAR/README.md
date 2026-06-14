@@ -1,4 +1,4 @@
-## 🛰️ Day 04: The Satellite Handshake
+## 🛰️Agri-Sentry Phase 4: Google Earth Engine SAR Integration
 
 > Connecting **PostGIS** Farm Boundaries to the **Google Earth Engine (GEE)** Sky
 
