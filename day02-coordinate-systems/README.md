@@ -1,9 +1,10 @@
 # 🛰️Agri-Sentry-Core Phase 2: — CRS Architecture & PostGIS Setup
 
 ---
-**Phase 2** establishes the core spatial mathematics and sets up the primary database engine. 
-Today, we move from "What is on the ground" <br> (NDVI) to "Where exactly is it?" (Precision Location).
-We solve the "flat earth" math problem <br>
+**Phase 2** establishes the core spatial mathematics and sets up the primary database engine. <br>
+Today, we move from "What is on the ground" <br> 
+(NDVI) to "Where exactly is it?" (Precision Location).
+We solve the **"flat earth"** math problem <br>
 and set up our primary spatial engine: **PostGIS.**
 
 
