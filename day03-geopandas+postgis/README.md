@@ -1,14 +1,14 @@
-## 🌍 GeoAI Journey: Day 3 — The Spatial Vault & Purification Pipeline
+## 🛰️Agri-Sentry Phase 3 — The Spatial Vault & Purification Pipeline
 
 > Project: Agri-Sentry 360 | Phase: Data Engineering & Persistence <br>
 📂 Path: ./geoai-journey/day03-geopandas+postgis/
 ---
 
 ### 🧭 Where We Are in the Journey
-Day 1 ✅ → Satellite theory + NDVI calculator (what satellites see) <br>
-Day 2 ✅ → Coordinate systems + CRS + PostGIS installed (how to measure space) <br>
-Day 3 ✅ → Farm purification + Spatial Vault built (where data lives safely) <br>
-Day 4 ⏳ → Satellite Eye: connect PostGIS to Google Earth Engine (live SAR data) <br>
+ ✅ → Satellite theory + NDVI calculator (what satellites see) <br>
+ ✅ → Coordinate systems + CRS + PostGIS installed (how to measure space) <br>
+ ✅ → Farm purification + Spatial Vault built (where data lives safely) <br>
+ ⏳ → Satellite Eye: connect PostGIS to Google Earth Engine (live SAR data) <br>
 
 **The logic:** Before we can detect floods on farms, we need: <br>
 - Clean farm boundaries (Day 3 — done ✅)
