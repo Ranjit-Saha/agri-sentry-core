@@ -1,4 +1,4 @@
-# 🛰️ Agri-Sentry 360: The 90-Day GeoAI Journey
+# 🛰️ Agri-Sentry 360: 
 **By Ranjit Saha | Planetary Physician**
 
 > *"The Earth is my Patient. Satellites are my X-Ray. GenAI is my Diagnosis."*
