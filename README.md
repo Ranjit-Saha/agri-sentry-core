@@ -15,7 +15,7 @@ Our architecture transforms raw satellite telemetry into actionable financial in
 ---
 
 ## 🛠️ Engineering Mission
-Agri-Sentry 360 solves the "Basis Risk" problem in parametric insurance by converting noisy, cloud-covered SAR satellite data into clean, verifiable flood-event triggers.
+Agri-Sentry-Core solves the "Basis Risk" problem in parametric insurance by converting noisy, cloud-covered SAR satellite data into clean, verifiable flood-event triggers.
 
 ## 🏗️ System Architecture
 The system is built as a modular pipeline where data moves from raw telemetry to actionable intelligence:
@@ -46,4 +46,4 @@ The system is built as a modular pipeline where data moves from raw telemetry to
 ---
 
 ## 🛡️ Methodology
-Agri-Sentry 360 follows a **Human-in-the-Loop (HITL)** engineering framework. State-of-the-art AI models act as "Computational Sub-Contractors" for architectural hardening and pipeline optimization, while every SQL constraint, security protocol, and spatial algorithm is manually audited and validated by the Lead Engineer.
+Agri-Sentry-Core follows a **Human-in-the-Loop (HITL)** engineering framework. State-of-the-art AI models act as "Computational Sub-Contractors" for architectural hardening and pipeline optimization, while every SQL constraint, security protocol, and spatial algorithm is manually audited and validated by the Lead Engineer.
