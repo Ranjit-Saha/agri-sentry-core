@@ -1,75 +1,49 @@
-# 🛰️ Agri-Sentry 360: 
-**By Ranjit Saha | Planetary Physician**
+# 🛰️ Agri-Sentry-Core: Spatial Intelligence Engine
 
-> *"The Earth is my Patient. Satellites are my X-Ray. GenAI is my Diagnosis."*
-
-This repository documents the 90-session build of **Agri-Sentry 360**—a climate-resilient agricultural intelligence platform designed for the farmers of **Dhaldabri, West Bengal**. We are bridging the $6B Trust Gap using Sentinel-1 SAR, PyTorch U-Net, and Agentic AI.
+A production-grade, climate-resilient agricultural intelligence backend designed to bridge the $6B parametric insurance trust gap in the Terai belt, West Bengal. 
 
 ---
 
-## 📅 Progress Tracker
+## ⚙️ The Agri-Sentry Data Pipeline
+Our architecture transforms raw satellite telemetry into actionable financial intelligence:
 
-| Events | Focus | Status | Key Deliverable |
-|-----|-------|--------|-----------------|
-| 1 | [Satellite Basics](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day01-first-satellite-analysis) | ✅ | NDVI calculator |
-| 2 | [Coordinate Systems](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day02-coordinate-systems) | ✅ | CRS utilities + PostGIS |
-| 3 | [Spatial Database](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day03-geopandas%2Bpostgis) | ✅ | Production vault with RLS |
-| 4 | [SAR Time-Series / GEE Integration](https://github.com/Ranjit-Saha/geoai-journey/tree/main/day04-satellite-handshake-for-SAR) | ✅ | 7-years history (5,936 data points) |
-| 5 | [Batch Processing](#) | ⏳ | Time-series data |
-| 6 | Visualization | ⏳ | Flood detection charts |
-| 7 | Week Review | ⏳ | Portfolio page |
-
-Current: Day 4 Complete ✅  
-Next (Events) -> : Day 5 - Parametric Insurance Logic
-
+1. **Ingestion (Phase 4):** Automated fetch of Sentinel-1 SAR imagery from Google Earth Engine.
+2. **Purification (Phase 1 & 3):** Removing noise, buffering polygons, and fixing CRS geometry.
+3. **Storage (Phase 2 & 3):** Secure storage in an RLS-enabled PostGIS vault.
+4. **Analysis (Phase 5 - Upcoming):** Parametric trigger engine to calculate flood impacts.
 
 ---
 
-## 📂 Repository Structure
-* `agri-sentry360/`: The Hero Project (src, docs, deployment).
-* `day01-first-satellite-analysis/`: Technical foundation: NDVI & Vectorization.
-* `day02-coordinate-system/`: CRS Mastery & PostGIS Database Integration.
-* `day03-geopandas+postgis/`: The Spatial Vault (PostGIS) & Data Purification Pipeline.
-* `da04-satellite-handshake-for-SAR/`: Connecting PostGIS Farm Boundaries to the Google Earth Engine (GEE) Sky.
+## 🛠️ Engineering Mission
+Agri-Sentry 360 solves the "Basis Risk" problem in parametric insurance by converting noisy, cloud-covered SAR satellite data into clean, verifiable flood-event triggers.
+
+## 🏗️ System Architecture
+The system is built as a modular pipeline where data moves from raw telemetry to actionable intelligence:
+
+| Phase | Component | Technical Focus |
+|-------|-----------|-----------------|
+| **01** | **Spectral Vectorization** | NumPy-optimized NDVI calculations (61x faster than iterators). |
+| **02** | **Spatial Math Engine** | WGS84 to UTM Zone 45N conversion for precision area calculation. |
+| **03** | **Secure Spatial Vault** | PostGIS database with Row-Level Security & GiST Indexing. |
+| **04** | **GEE Handshake** | Sentinel-1 SAR (VV Polarization) historical anomaly detection. |
+| **05** | **Trigger Logic** | *Active:* Threshold-based automated payout generation. |
 
 ---
 
-## 🚀 The Mission: Dhaldabri to the World
-In the Terai belt, monsoon clouds blind optical satellites for 3 months. Farmers lose crops to floods with zero warning. This project builds a **System of Truth**:
-1.  **SAR Flood Detection**: Seeing through clouds when others are blind.
-2.  **Sowing Window Engine**: 5-year historical flood analysis for optimal planting.
-3.  **Bengali Voice Chatbot**: The "Stethoscope" connecting AI diagnosis to the farmer.
+## ⚙️ Core Technical Capabilities
+* **Cloud-Native Ingestion:** API-driven handshake with Google Earth Engine to process >7 years of historical backscatter data.
+* **Database Hardening:** Idempotent schema design with 3-meter inner-core buffering to eliminate edge-case noise in farm boundary sampling.
+* **Compute Efficiency:** Vectorized raster processing pipelines built to handle large-scale temporal data without memory overhead.
 
 ---
 
-## 🛠️ Tech Stack
-*   **EO:** Sentinel-1 (SAR), Sentinel-2, Google Earth Engine.
-*   **AI:** PyTorch, TorchGeo, LangGraph, RAG.
-*   **Spatial:** PostGIS, GDAL, GeoPandas, Rasterio.
-*   **Cloud:** FastAPI, Docker, AWS (EC2, RDS, S3).
+## 🛠️ Technology Stack
+* **Earth Observation:** Sentinel-1 (SAR GRD), Sentinel-2, Google Earth Engine API
+* **Spatial & Database:** PostGIS, PostgreSQL, GeoPandas, Rasterio, Shapely
+* **Machine Learning/Compute:** Python, NumPy (Vectorization), PyTorch
+* **Backend:** FastAPI, Docker
 
 ---
-## 🛠️ Engineering Methodology: AI-Augmented Orchestration
 
->  **Agri-Sentry360** is developed under a high-performance **Human-in-the-Loop** (HITL) framework. As the **Lead Engineer**, I treat state-of-the-art AI models as high-speed "Computational Sub-Contractors"—leveraging their processing power to accelerate the transition from abstract geospatial theory to production-ready architecture.
-
-
-### 🤝 Strategic Partners & Force Multipliers:
-
-- **Google AI Mode:** Strategic Consultant for multi-spectral strategy and SAR Physics calibration.
-- **Claude Sonnet 4.6 (Anthropic):** Architectural Reviewer for PostGIS hardening and complex Python vectorization.
-- **Force Multiplier:** Knowledge synthesized from the **12th ESA Training Course on Earth Observation** to ensure academic and industrial rigor.
-
-### 🛡️ Engineering Sovereignty & QA
-
-**Ownership is absolute**. Every architectural decision, Spatial SQL query, and data security protocol is **critically audited, manually validated, and physically executed** by the Lead Engineer. 
-I do not simply "use" AI; **I command it** to build a robust, insurance-grade system.
-
-
----
-## 📬 Connectivity
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamranjitsaha/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ranjitofficial.connect@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Ranjit-Saha)
-
- 
+## 🛡️ Methodology
+Agri-Sentry 360 follows a **Human-in-the-Loop (HITL)** engineering framework. State-of-the-art AI models act as "Computational Sub-Contractors" for architectural hardening and pipeline optimization, while every SQL constraint, security protocol, and spatial algorithm is manually audited and validated by the Lead Engineer.
