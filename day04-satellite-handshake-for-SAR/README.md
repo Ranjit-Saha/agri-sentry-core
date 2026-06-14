@@ -9,7 +9,7 @@ the **Sentinel-1 SAR (Synthetic Aperture Radar) constellation.**
 
 By automating a "handshake" between our database and the GEE cloud, 
 we successfully retrieved over **7 years of satellite backscatter history** 
-for every farm in our project, `**effectively giving our "shapes" a memory.**`
+for every farm in our project, **`effectively giving our "shapes" a memory.`**
 
 ### 🏗️ The Engineering Architecture
 - **Database:** PostGIS (Spatial SQL for Geometry extraction)
