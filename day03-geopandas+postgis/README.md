@@ -1,4 +1,4 @@
-## 🛰️Agri-Sentry Phase 3 — The Spatial Vault & Purification Pipeline
+## 🛰️Agri-Sentry-Core Phase 3 — The Spatial Vault & Purification Pipeline
 
 > Project: Agri-Sentry 360 | Phase: Data Engineering & Persistence <br>
 📂 Path: ./geoai-journey/day03-geopandas+postgis/
