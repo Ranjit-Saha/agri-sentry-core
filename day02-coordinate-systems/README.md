@@ -1,4 +1,4 @@
-# 🛰️Agri-Sentry Phase 2: — CRS Architecture & PostGIS Setup
+# 🛰️Agri-Sentry-Core Phase 2: — CRS Architecture & PostGIS Setup
 
 ---
 **Phase 2** establishes the core spatial mathematics and sets up the primary database engine. 
