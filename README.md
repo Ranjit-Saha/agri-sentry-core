@@ -22,10 +22,10 @@ The system is built as a modular pipeline where data moves from raw telemetry to
 
 | Phase | Component | Technical Focus |
 |-------|-----------|-----------------|
-| **01** | **Spectral Vectorization** | NumPy-optimized NDVI calculations (61x faster than iterators). |
-| **02** | **Spatial Math Engine** | WGS84 to UTM Zone 45N conversion for precision area calculation. |
-| **03** | **Secure Spatial Vault** | PostGIS database with Row-Level Security & GiST Indexing. |
-| **04** | **GEE Handshake** | Sentinel-1 SAR (VV Polarization) historical anomaly detection. |
+| **01** | [Spectral Vectorization](./day01-first-satellite-analysis) | NumPy-optimized NDVI calculations (61x faster than iterators). |
+| **02** | [Spatial Math Engine](./day02-coordinate-systems) | WGS84 to UTM Zone 45N conversion for precision area calculation. |
+| **03** | [Secure Spatial Vault](./day03-geopandas%2Bpostgis) | PostGIS database with Row-Level Security & GiST Indexing. |
+| **04** | [GEE Handshake](./day04-satellite-handshake-for-SAR) | Sentinel-1 SAR (VV Polarization) historical anomaly detection. |
 
 ---
 
@@ -39,8 +39,7 @@ The system is built as a modular pipeline where data moves from raw telemetry to
 ## 🛠️ Technology Stack
 * **Earth Observation:** Sentinel-1 (SAR GRD), Sentinel-2, Google Earth Engine API
 * **Spatial & Database:** PostGIS, PostgreSQL, GeoPandas, Rasterio, Shapely
-* **Machine Learning/Compute:** Python, NumPy (Vectorization), PyTorch
-* **Backend:** FastAPI, Docker
+* **Language & Math:** Python, NumPy (Vectorization)
 
 ---
 
